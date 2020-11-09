@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Data\\StarWarsWiki.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Data\\StarWarsWiki.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Data\\StarWarsWiki.Data.csproj",
+        "projectName": "StarWarsWiki.Data",
+        "projectPath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Data\\StarWarsWiki.Data.csproj",
+        "packagesPath": "C:\\Users\\Renato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Renato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Domain\\StarWarsWiki.Domain.csproj": {
+                "projectPath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Domain\\StarWarsWiki.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Domain\\StarWarsWiki.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Domain\\StarWarsWiki.Domain.csproj",
+        "projectName": "StarWarsWiki.Domain",
+        "projectPath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Domain\\StarWarsWiki.Domain.csproj",
+        "packagesPath": "C:\\Users\\Renato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWiki.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Renato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

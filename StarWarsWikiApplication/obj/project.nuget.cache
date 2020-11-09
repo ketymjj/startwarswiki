@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3UqEUmSWWIq/4VWAKUq1GeGcJxSPLonbBglBOhNtTHAESy9Cz1ya9+uglmTTU6PG+MJkhrmZagfcjRPTvnJpgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWarsWikiApplication\\StarWarsWikiApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renato\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

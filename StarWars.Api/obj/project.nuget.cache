@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "XLY+iA8c6lzCs0tVyQoOGVVwxKr5kNzdYFNBkj2lAKJ7uCV8XiN7B9UM0tZyVWhT1KZvjJUh6NGDCBsMFexxBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWars.Api\\StarWars.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renato\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.9\\microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.http\\3.1.9\\microsoft.extensions.http.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.logging\\3.1.9\\microsoft.extensions.logging.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

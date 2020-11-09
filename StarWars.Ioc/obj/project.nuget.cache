@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "JSYJUr8DKhHSc+mXOdsvD9rrGeQBRd+3nFFtz/Rv7yC/uZYur2JtAIi3EY0ff5DOscMVbL3w42iFW4KBhuq/GA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Renato\\Desktop\\StarWarsWiki\\StarWars.Ioc\\StarWars.Ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renato\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.9\\microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.http\\3.1.9\\microsoft.extensions.http.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.logging\\3.1.9\\microsoft.extensions.logging.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Renato\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

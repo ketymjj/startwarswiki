@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m3CycoFovZqGcRGeCFARIEMebl7OxvjH6U8CAkU9V1jz7kjLSqNz5dqUcw8tvIS8FCFkqevewpxT8bikLw40Ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renat\\source\\repos\\StarWarsWiki\\StarWarsWiki.Dto\\StarWarsWiki.Dto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\renat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

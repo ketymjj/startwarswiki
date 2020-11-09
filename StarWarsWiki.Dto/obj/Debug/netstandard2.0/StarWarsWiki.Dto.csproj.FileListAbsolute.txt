@@ -1,0 +1,9 @@
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\bin\Debug\netstandard2.0\StarWarsWiki.Dto.deps.json
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\bin\Debug\netstandard2.0\StarWarsWiki.Dto.dll
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\bin\Debug\netstandard2.0\StarWarsWiki.Dto.pdb
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\obj\Debug\netstandard2.0\StarWarsWiki.Dto.csprojAssemblyReference.cache
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\obj\Debug\netstandard2.0\StarWarsWiki.Dto.AssemblyInfoInputs.cache
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\obj\Debug\netstandard2.0\StarWarsWiki.Dto.AssemblyInfo.cs
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\obj\Debug\netstandard2.0\StarWarsWiki.Dto.csproj.CoreCompileInputs.cache
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\obj\Debug\netstandard2.0\StarWarsWiki.Dto.dll
+C:\Users\renat\source\repos\StarWarsWiki\StarWarsWiki.Dto\obj\Debug\netstandard2.0\StarWarsWiki.Dto.pdb
