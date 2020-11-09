@@ -1,10 +1,5 @@
-﻿using StarWarsWiki.Domain.Models;
-using StarWarsWikiApplication.ViewModels;
-using StarWarsWikiApplication.ViewModels.GetPeople;
-using StarWarsWikiApplication.ViewModels.SearchPeople;
-using System;
+﻿using StarWarsWikiApplication.ViewModels.SearchPeople;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace StarWarsWikiApplication.Interfaces

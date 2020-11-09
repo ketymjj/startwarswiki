@@ -1,17 +1,10 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using StarWars.Ioc;
 
 namespace StarWars.Api
@@ -28,10 +21,10 @@ namespace StarWars.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Registra as dependencias
+            // Registra as dependências.
             DependencyContainer.RegisterServices(services);
 
-            // registrar os mappers
+            // Registrar os mappers
             Mapper.RegisterMappers(services);
 
             services.AddControllers()
@@ -39,7 +32,7 @@ namespace StarWars.Api
 
             services.AddSwaggerGen();
 
-            //para centralizar a webclinet foi adicionado na startup
+            // Para centralizar a webclient foi adicionado na startup.
             services.AddHttpClient("swapi", c =>
             {
                 c.BaseAddress = new Uri("https://swapi.dev/api/");

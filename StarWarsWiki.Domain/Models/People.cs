@@ -4,10 +4,11 @@ using System.Text;
 
 namespace StarWarsWiki.Domain.Models
 {
-    // foi criado a classe do dominio mas como vi que não haveria comportamento 
-    //decidi usar o dto seguindo mais ou menn cqrs que nos diz que para insert devemos validar dos dados de dominio
-    //mas para get podemos desnormalizar os dados e fazer um get simples visto que o modelo é validado no insert
-    // e como não temos insrt não adotei 
+    // Foi criado a classe do domínio mas como vi que não haveria comportamento,
+    // decidi usar o dto, para insert devemos validar dos dados de dominio,
+    // mas para get podemos desnormalizar os dados e fazer um get simples visto que o modelo é validado no insert,
+    // e como não temos insert não adote.
+
     public class People
     {
         public string Name { get; set; }

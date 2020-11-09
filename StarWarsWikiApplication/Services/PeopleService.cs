@@ -30,10 +30,11 @@ namespace StarWarsWikiApplication.Services
              {
                  //split para pegar o id
                  var idPlanet = people.Homeworld.Split("/")[5];
-                 // buscar os planetas dos personagens
+
+                 // Busca os planetas dos personagens.
                  var planet = await _planetRepository.GetByIdAsync(int.Parse(idPlanet));
 
-                 // para todo planeta que retorna buscar os residentes
+                 // Para todo planeta que retorna buscar os residentes.
                  var residentsTasks = planet.Residents.Select(async resident =>
                   {
                       // split pegar id people
@@ -44,7 +45,7 @@ namespace StarWarsWikiApplication.Services
                       return people;
                   });
 
-                 // para cada personaegem buscar a nave
+                 // Para cada personaegem buscar a nave.
                  var starShipsTasks = people.Starships.Select(async x =>
                  {
                      var idPeople = x.Split("/")[5];
@@ -57,7 +58,7 @@ namespace StarWarsWikiApplication.Services
                  var residents = await Task.WhenAll(residentsTasks);
                  var starShips = await Task.WhenAll(starShipsTasks);
 
-                 // mappper transformar dto em viewmodel, para reparação usando onion deve segregar as classes
+                 // Mappper transformar dto em viewmodel, para reparação usando onion deve segregar as classes.
                  return people.ToSearchPeopleViewModel(planet, residents, starShips);
 
              });

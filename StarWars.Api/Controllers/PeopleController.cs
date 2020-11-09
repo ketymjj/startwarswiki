@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StarWarsWikiApplication.Interfaces;
-using StarWarsWikiApplication.Services;
 
 namespace StarWars.Api.Controllers
 {
@@ -17,7 +11,7 @@ namespace StarWars.Api.Controllers
         private IPeopleService _peopleService;
 
 
-        // injeta a IPeopleService atravez do Ioc classe DependencyContainer
+        // Injeta a IPeopleService através do Ioc classe DependencyContainer
         public PeopleController(IPeopleService peopleService)
         {
             _peopleService = peopleService;

@@ -3,17 +3,9 @@ using Newtonsoft.Json;
 using StarWarsWiki.Data.Repositories.Models;
 using StarWarsWiki.Domain.Dto;
 using StarWarsWiki.Domain.Interfaces;
-using StarWarsWiki.Domain.Models;
-
-using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.IO;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace StarWarsWiki.Data.Repositories
@@ -47,10 +39,11 @@ namespace StarWarsWiki.Data.Repositories
             var client = _clientFactory.CreateClient("swapi");
             var response = await client.GetAsync($"{_url}/?search={word}");
             string responseBody = await response.Content.ReadAsStringAsync();
+
             // Seguindo o modelo de Onion architecture separamos o modelo de repositorio dos demais.
             var peopleRemoteModel = JsonConvert.DeserializeObject<PeopleRemoteModel>(responseBody);
 
-            // foi usado o automapper para fazer o map das entidades dentro ioc
+            // Foi usado o automapper para fazer o map das entidades dentro ioc
             return peopleRemoteModel.Results.Select(x => _mapper.Map<GetPeopleDto>(x));
         }
     }

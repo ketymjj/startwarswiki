@@ -10,8 +10,8 @@ namespace StarWars.Ioc
     {
         public static void RegisterServices(IServiceCollection services)
         {
-            // injeta a classe por singleton, singleton é patter que verifica se existe instancia da classe case 
-            // exista ele retorna essa instancia, caso não exista ele cria a instancia e retorna
+            // Injeta a classe por singleton, Singleton é patter que verifica se existe instancia da classe case 
+            // exista ele retorna essa instância, caso não exista ele cria a instância e retorna
             // example 
             // class B
             // if (B == null) new B() return B;

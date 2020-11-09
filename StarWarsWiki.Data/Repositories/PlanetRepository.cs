@@ -3,8 +3,6 @@ using Newtonsoft.Json;
 using StarWarsWiki.Data.Repositories.Models;
 using StarWarsWiki.Domain.Dto;
 using StarWarsWiki.Domain.Interfaces;
-using StarWarsWiki.Domain.Models;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 

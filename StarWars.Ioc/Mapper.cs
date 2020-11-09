@@ -2,10 +2,7 @@
 using StarWarsWiki.Data.Repositories.Models;
 using StarWarsWiki.Domain.Dto;
 using StarWarsWiki.Domain.Models;
-using StarWarsWikiApplication.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace StarWars.Ioc
 {

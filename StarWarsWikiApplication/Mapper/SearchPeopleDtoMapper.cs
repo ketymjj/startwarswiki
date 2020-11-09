@@ -1,17 +1,14 @@
-﻿using StarWarsWiki.Domain.Dto;
-
+﻿using System.Linq;
+using StarWarsWiki.Domain.Dto;
 using StarWarsWikiApplication.ViewModels.GetPeople;
 using StarWarsWikiApplication.ViewModels.SearchPeople;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 
 namespace StarWarsWikiApplication.Mapper
 {
     public static class SearchPeopleDtoMapper
     {
-        // mapper dase entidades para viewmodel poderia ter usado o automapper mas quis variar sem motivo 
+        // Mapper base de entidades para viewmodel poderia ter usado o automapper mas quis variar sem motivo 
         public static SearchPeopleViewModel ToSearchPeopleViewModel(this GetPeopleDto getPeopleDto, GetPlanetDto getPlanetDto, GetPeopleDto[] residents, GetStarShipDto[] starShips)
         {
             return new SearchPeopleViewModel
